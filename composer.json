@@ -1,0 +1,48 @@
+{
+    "name": "silverstripe/installer",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": "^7.1 || ^8",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "4.7.0@stable",
+        "silverstripe/login-forms": "4.3.0@stable",
+        "ryanpotter/silverstripe-cms-theme": "^3.4",
+        "heyday/silverstripe-menumanager": "dev-master",
+        "silverstripe/blog": "^3.6",
+        "undefinedoffset/sortablegridfield": "^2.0",
+        "jbennecker/silverstripe-elemental-site-search": "^0.0.3",
+        "axllent/silverstripe-bootstrap-forms": "^2.0",
+        "plastyk/dashboard": "dev-master",
+        "hubertusanton/silverstripe-seo": "dev-master"
+    },
+    "require-dev": {
+        "sminnee/phpunit": "^5.7",
+        "sminnee/phpunit-mock-objects": "^3.4.5"
+    },
+    "extra": {
+        "resources-dir": "_resources",
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/database.yml",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ],
+        "expose": [
+            "app/css"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

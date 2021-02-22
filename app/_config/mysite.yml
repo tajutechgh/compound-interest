@@ -1,0 +1,10 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+Plastyk\Dashboard\Admin\DashboardAdmin:
+  contact_email: 'support@coldsis.com'
+  contact_name: 'COLDSiS'
+  panel_accent_color: '#027534'
