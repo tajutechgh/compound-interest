@@ -36,10 +36,10 @@
                             <label for="Time">Time:</label>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="number" class="form-control" placeholder="Enter years" name="TimeYear" required >
+                                    <input type="number" class="form-control" placeholder="Years" name="TimeYear" required >
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="number" class="form-control" placeholder="Enter months" name="TimeMonth" >
+                                    <input type="number" class="form-control" placeholder="Months" name="TimeMonth" >
                                 </div>
                             </div>
                         </div>

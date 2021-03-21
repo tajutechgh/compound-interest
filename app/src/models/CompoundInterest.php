@@ -20,8 +20,17 @@ class CompoundInterest extends DataObject
     'InitialDeposit' => 'Varchar',
     'Rate' => 'Varchar',
     'CompoundFrequency' => 'Varchar',
-    'Time' => 'Varchar',
+    'TimeYear' => 'Varchar',
+    'TimeMonth' => 'Varchar',
     'CompoundInterest' => 'Varchar',
+    'DepositAmount' => 'Varchar',
+    'DepositCompound' => 'Varchar',
+    'DepositAnnualInflationRate' => 'Varchar',
+    'WithdrawalAmount' => 'Varchar',
+    'WithdrawalCompound' => 'Varchar',
+    'WithdrawalAnnualInflationRate' => 'Varchar',
+    'DepositMadeAt' => 'Varchar',
+    'WithdrawalMadeAt' => 'Varchar',
   ];
 
   private static $has_one = [];
